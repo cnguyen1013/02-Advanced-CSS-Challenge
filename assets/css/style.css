@@ -1,0 +1,180 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #cdc8c8;
+    overflow-x: hidden;
+}
+
+.nav-bar {
+    text-align: right;
+    background-color: #e31212;
+    padding: 30px;
+    justify-content: space-between;
+    overflow: auto;
+    /* position: fixed;
+    top: 0;
+    width: 95%;*/
+}
+
+.nav-bar a {
+    color: #ebe5e5;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 15px;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+#background-image {
+    display: flex;
+    height: 100vh;
+    max-width: 150%;
+    background-image: url("../images/mdanderson_cancer_center.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 0 2px;
+    background-size: 100% 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#about {
+    display: block;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #e31212;
+    background-color:  #efeae8;
+}
+
+.section_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    max-width: 300px;
+    top: 20px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 16px;
+    float: center;
+    text-align: center;
+}
+
+.cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(225px, 1fr));
+    gap: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.card_img { 
+    width: 100%;
+    display: block;
+}
+
+.card:hover {
+    transform: scale(1.2); 
+    opacity: 1.0;
+}
+
+.card_content {
+    line-height: 1;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fffa;
+}
+
+.card_content > p:first-of-type {
+    margin-top: 0;
+}
+
+.card_content > p:last-of-type {
+    margin-bottom: 0;
+}
+
+ul#social-media{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    justify-content: space-evenly;
+}
+
+.social-links ul a{
+    color: #E85a4F;
+}
+.social-links ul a:hover {
+    color: #8e8d8a;
+    list-style: none; 
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-github {
+    background: #ff5700;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    /* Styles for screens with a maximum width of 600px */
+    .nav-bar {
+        padding: 10px;
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    #background-images {
+        background-size: cover;
+    }
+    
+    .cards {
+        grid-template-columns: repeat(1, minmax(225px, 1fr));
+    }
+    
+    .section_img {
+        height: 200px;
+        max-width: 200px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+}
