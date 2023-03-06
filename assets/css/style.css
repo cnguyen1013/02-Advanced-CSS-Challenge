@@ -166,6 +166,7 @@ ul#social-media{
     }
     
     .cards {
+        max-width: 400px;
         grid-template-columns: repeat(1, minmax(225px, 1fr));
     }
     
