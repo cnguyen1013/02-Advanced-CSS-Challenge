@@ -1,9 +1,11 @@
+/*Sets elements in body of web page */
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #cdc8c8;
     overflow-x: hidden;
 }
 
+/*Sets elements of nav-bar of web page */
 .nav-bar {
     text-align: right;
     background-color: #e31212;
@@ -15,6 +17,7 @@ body {
     width: 95%;*/
 }
 
+/*Sets elements of anchors in nav-bar of web page */
 .nav-bar a {
     color: #ebe5e5;
     text-decoration: none;
@@ -23,10 +26,12 @@ body {
     padding: 0px 15px;
 }
 
+/*Sets action anchors in nav-bar of web page */
 .nav-bar a:hover {
     text-decoration: underline;
 }
 
+/*Sets elements of background-image of web page */
 #background-image {
     display: flex;
     height: 100vh;
@@ -40,10 +45,12 @@ body {
     margin-left: 0px;
 }
 
+/*Sets elements of "about" of web page */
 #about {
     display: block;
 }
 
+/*Sets elements of each section of web page */
 section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
@@ -51,6 +58,7 @@ section {
     background-color:  #efeae8;
 }
 
+/*Sets elements of section_img of web page */
 .section_img {
     display: block;
     margin-left: auto;
@@ -65,16 +73,19 @@ section {
     background-repeat: no-repeat;
 }
 
+/*Aligns to the center of web page and some margin */
 .text-center {
     text-align: center;
     margin-top: 50px;
 }
 
+/*Sets font preferences and styles for text*/
 p {
     font-size: 16px;
     text-align: center;
 }
 
+/*Sets elements of .cards of web page for projects*/
 .cards {
     margin: 0 auto;
     max-width: 1000px;
@@ -84,20 +95,24 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/*Sets effect of .cards of web page */
 .card {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
+/*Sets sizing of .card_img of web page for projects */
 .card_img { 
     width: 100%;
     display: block;
 }
 
+/*Sets effect of .card_img of web page for projects */
 .card:hover {
     transform: scale(1.2); 
     opacity: 1.0;
 }
 
+/*Sets elements of .card_content of web page for projects */
 .card_content {
     line-height: 1;
     font-size: 0.9em;
@@ -105,14 +120,17 @@ p {
     background: #fffa;
 }
 
+/*Sets elements of .card_content for text of web page for projects */
 .card_content > p:first-of-type {
     margin-top: 0;
 }
 
+/*Sets elements of .card_content for text of web page for projects */
 .card_content > p:last-of-type {
     margin-bottom: 0;
 }
 
+/*Sets elements of social media links for web page */
 ul#social-media{
     list-style-type: none;
     display: flex;
@@ -120,14 +138,18 @@ ul#social-media{
     justify-content: space-evenly;
 }
 
+/*Sets elements of social media links for web page */
 .social-links ul a{
     color: #E85a4F;
 }
+
+/*Sets effect of social media links for web page */
 .social-links ul a:hover {
     color: #8e8d8a;
     list-style: none; 
 }
 
+/*Sets elements of social media containers for web page */
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -137,23 +159,26 @@ ul#social-media{
     margin: 5px 2px;
 }
 
+/*Sets elements for github */
 .fa-github {
     background: #ff5700;
     color: white;
 }
 
+/*Sets elements for linkedin */
 .fa-linkedin {
     background: #007bb5;
     color: white;
 }
 
+/*Sets elements for twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
 }
 
+/* Styles for screens with a maximum width of 600px */
 @media screen and (max-width: 600px) {
-    /* Styles for screens with a maximum width of 600px */
     .nav-bar {
         padding: 10px;
         font-size: 16px;
